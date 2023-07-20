@@ -28,10 +28,10 @@ The following columns have to be filled in _handlers/pull\_requests.py_:
 Press buttons to change request parameters:
 - ?state=open (PR state is open)
 - ?state=closed  (PR state is closed)
-- ?state=bug (PR state is open and PR has "bug" label)
-- ?state=needs-review (PR state is open and PR has "needs-review" label)
 
 Use **per_page=100** parameter (default value is 30) to fetch pull requests records from the repository. 
+
+Avoid using any query parameters for GitHub API requests, except for `state` and `per_page`.
 
 Use Access token to reach repository  https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token. Set it as environment variable: 
         
