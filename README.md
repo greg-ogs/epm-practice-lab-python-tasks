@@ -9,7 +9,7 @@ Use GitHub REST API: https://docs.github.com/en/rest/pulls/pulls#list-pull-reque
 
 Flask application template is provided.
 
-![](https://gitlab.com/epam-devops-lab/epm-practice-lab-python-tasks/-/raw/flask-app2/app.png)
+![](https://gitlab.com/epam-devops-lab/epm-practice-lab-python-tasks/-/raw/flask-app/app.png)
 
 Execute the following commands to run application, e:
 
