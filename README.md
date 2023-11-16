@@ -48,7 +48,21 @@ Clean file content when the script is started.
 ### TASK 2
 Create a distributive package of the script from **Task 1**
 
-The package should have the same structure as zoo-example (see lesson presentation).
+The package should have similar structure:
+```bash
+zoo-example
+├── animals
+│   ├──handlers
+│   │  ├── __init__.py
+│   │  ├── walk.py
+│   │  └── swim.py
+│   ├── __init__.py
+│   ├── crocodile.py
+│   ├── monkey.py
+│   └── zoo.py
+├── README.md
+└── setup.py
+```
 
 Add setup.py
 
