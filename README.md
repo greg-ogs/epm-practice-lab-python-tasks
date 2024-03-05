@@ -8,7 +8,7 @@ Create script _clean_app.py_ that:
         python clean_app.py <zip-file name>
 
 
-- [ ] Unzip the archive to a temp directory
+- [ ] Unzip the archive to a temp directory (using the appropriate Python library)
 
 - [ ] Remove folders that don't contain _\_\_init\_\_.py_. Only the root folder can be without _\_\_init\_\_.py_.
 
