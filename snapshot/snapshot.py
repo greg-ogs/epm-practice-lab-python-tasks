@@ -7,6 +7,10 @@ Make snapshot
 "KiB Swap": {"total": 16280636, "free": 335140, "used": 11621308},
 "Timestamp": 1624400255}
 """
+import subprocess
+
+subprocess.check_call(["pip", "install", "psutil"])
+
 import json
 import os
 import psutil
