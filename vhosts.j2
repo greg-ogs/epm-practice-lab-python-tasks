@@ -4,7 +4,9 @@ NameVirtualHost *:80
     <VirtualHost *:80>
         ServerName {{ vhost.servername }}
         DocumentRoot {{ vhost.documentroot }}
-        ServerAdmin {{ vhost.serveradmin }}
+        {% if vhost.serveradmin %}
+            ServerAdmin {{ vhost.serveradmin }}
+        {% endif %}
         <Directory {{ vhost.directorypath }}>
             AllowOverride All
             Options Indexes FollowSymLinks
